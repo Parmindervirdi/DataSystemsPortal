@@ -1,0 +1,189 @@
+* {
+	float: none !important;
+	overflow: visible !important;
+	background: none !important;
+	width: auto !important;
+	height: auto !important;
+	font: default !important;
+	border: none !important;
+	line-height: default !important;
+	color: #000;
+}
+
+a:link:after, a:visited:after {
+   content: " (" attr(href) ") ";
+   font-size: 70%;
+}
+
+div {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#top-of-page,
+#navigation-bottom,
+#content-right,
+#breadcrumbs,
+div.tabhead,
+object,
+embed,
+.seo {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 1em 0 !important;
+}
+
+p, td, li {
+	margin: 0.5em 0 !important;
+}
+
+ul, li {
+	list-style: default !important;
+}
+
+ul.news_column li {
+	border-bottom: 1px dotted #ccc !important;
+}
+
+table,
+table td,
+table.comparison,
+table.comparison td {
+	border: 1px solid #CCC;
+}
+
+#header, #header.firstlevel, div.overlay {
+	height: default !important;
+	border-bottom: 1px !important;
+}
+
+#footer {
+	margin: 2em 0 !important;
+	border-top: 2px solid !important;
+}
+
+#evaluate-steps div.inner-left,
+#evaluate-steps div#rightparent,
+#betaSolo div#right {
+        visibility: hidden;
+        display: none;
+}
+
+#betaSolo #left h2,
+#betaSolo #left p {
+        color: #333 !important;
+}
+
+
+
+/* ---------- legacy styles for support documentation ---------- */
+
+/* styles for main page structure */
+#content table#main-table {
+	width: 650px; 
+	text-align: left; 
+	margin: 0; 
+	position: relative;
+}
+
+#content td#main-body {
+	margin: 0; 
+	max-width: 600px; 
+	position: relative; 
+	padding: 0; 
+	vertical-align: top;
+}
+
+	
+/* styles for in page components */
+.features {
+	background: #ECF2F9; 
+	border: 0; 
+	border-collapse: collapse;
+}
+
+.features td {
+	border: 1px solid #FFFFFF; 
+	padding: 10px;
+}
+
+#content #main-body blockquote {
+	background-image: none;
+}
+
+.graytext, .smallers { 
+	color: #77787c;
+}
+
+.smaller {
+	font-size: 11px; 
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: #565656; 
+	margin:0; 
+	padding:0;
+}
+
+.smallerb {
+	font-size: 11px; 
+	font-weight: bold; 
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: #565656; 
+	margin:0; 
+	padding:0;
+}
+
+.medium {
+	font-size: 115%; 
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: #565656; 
+	margin:0; 
+	padding:0;
+}
+
+.mediumb {
+	font-size: 115%; 
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: #565656; 
+	margin:0; 
+	padding:0; 
+	font-weight: bold;
+}
+
+.h3 {
+	clear:both; 
+	color:#FF9901; 
+	display:block; 
+	font-size:16px; 
+	font-weight:normal; 
+	margin:0; 
+	padding:5px 0;
+}
+
+#content #main-body .h3 {
+	font-size: 18px;
+}
+
+
+/* styles for lists */
+#content #main-body ul li {
+	list-style:square; 
+	margin-left:10px; 
+}
+
+#content #main-body li a {
+	background-image: none;
+	padding-left: 0;
+}
+
+#content #main-body ul ul, #content #main-body ol ol {
+	margin-left: 10px;
+}
+
+#content #main-body ol {
+	max-width: 600px;
+}
+#content #main-body ol li {
+	list-style-type: decimal;
+}

@@ -1,0 +1,65 @@
+<html>
+<head>
+<style>
+img {
+  float: left;
+   border-radius: 5%;
+}
+p.note
+{
+   color:#0000b3;
+   font-family:Verdana;
+   font-size:12px
+}
+p.reg
+{
+   color:#0000b3;
+   font-family:Verdana;
+   font-size:11px
+}
+
+</style>
+</head>
+<title></title>
+<body>
+<p class="reg">Hello ALL</p>
+<br>
+<p class="reg">Database has been released and details are given below</p>
+<br>
+<table width="1000" height="80" >
+<th width="10"  height="20" align="center" Style="background-color:#4d4dff;color:#e6f2ff;font-family:Verdana;font-size:12px;">SNo</th>
+<th width="100" align="center" Style="background-color:#4d4dff;color:#e6f2ff;font-family:Verdana;font-size:12px;">Description</th>
+<th width="300" align="center" Style="background-color:#4d4dff;color:#e6f2ff;font-family:Verdana;font-size:12px;">Value</th>
+<tr>
+<td width="10" height="20" align="center" Style="background-color:#b3b3b3;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;">1</td>
+<td width="100" height="20" align="center" Style="background-color:#b3b3b3;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;">Customer</td>
+<td width="300" height="20" align="center" Style="background-color:#b3b3b3;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;">AAAATA</td>
+</tr>
+<tr>
+<td width="10" height="20" align="center" Style="background-color:#f2f2f2;color:#000000;font-family:Verdana;font-size:11px;font-weight: bold;">2</td>
+<td width="100" height="20" align="center" Style="background-color:#f2f2f2;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;">Fixed Version</td>
+<td width="300" height="20" align="center" Style="background-color:#f2f2f2;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;">AAATA_June2019_Rev1</td>
+</tr>		 
+<tr>
+<td width="10" height="20" align="center" Style="background-color:#b3b3b3;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;">3</td>
+<td width="100" height="20" align="center" Style="background-color:#b3b3b3;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;">Database Export</td>
+<td width="300" height="20" align="center" Style="background-color:#b3b3b3;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;">S100010</td>
+</tr>
+<tr>
+<td width="10" height="20" align="center" Style="background-color:#f2f2f2;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;">4</td>
+<td width="100" height="20" align="center" Style="background-color:#f2f2f2;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;">QA Ticket</td>
+<td width="300" height="20" align="center" Style="background-color:#f2f2f2;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;"><a href="https://jira.cleverdevices.com:8443/browse/BTD-10544">BTD-10544</a></td>
+</tr>
+<tr>
+<td width="10" height="20" align="center" Style="background-color:#b3b3b3;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;">5</td>
+<td width="100" height="20" align="center" Style="background-color:#b3b3b3;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;">Pinned database on teamcity</td>
+<td width="300" height="20" align="center" Style="background-color:#b3b3b3;color:#000000;font-family:Verdana;font-size:11px; font-weight: bold;"><a href="http://teamcity:81/viewLog.html?buildId=358836&buildTypeId=bt279&tab=artifacts">Teamcity database Link</td>
+</tr>
+</table>
+<p><br></p>
+<p><br></p>
+<p class=Note><b>****If you are a PM or SE who interacts with this customer, Data Systems wants YOUR feedback!****</b></p>
+<p><a href="https://www.surveymonkey.com/r/WFP6FHJ"><img src="images/Feedback.jpg" alt="Pineapple" style="width:150px;height:100px;margin-left:15px;"></a></p>
+
+</body>
+</html>

@@ -1,0 +1,679 @@
+{rest/api/2/search?jql="Initial Assignee" =rkulkarni AND labels='Master'  and summary ~ 'QA' and fixversion ='RTA_Jun2018_Rev1'
+	"expand": "names,schema",
+	"startAt": 0,
+	"maxResults": 50,
+	"total": 1,
+	"issues": [
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "233329",
+			"self": "https://jira.cleverdevices.com:8443/rest/api/2/issue/233329",
+			"key": "BTD-9397",
+			"fields": {
+				"customfield_11160": null,
+				"customfield_15760": null,
+				"customfield_15761": null,
+				"resolution": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/resolution/16",
+					"id": "16",
+					"description": "GreenHopper Managed Resolution",
+					"name": "Done"
+				},
+				"customfield_11961": 103690000.0,
+				"customfield_16163": null,
+				"customfield_16162": null,
+				"lastViewed": null,
+				"customfield_16161": null,
+				"customfield_16160": null,
+				"customfield_16165": null,
+				"customfield_16164": null,
+				"customfield_14663": [
+					{
+						"self": "https://jira.cleverdevices.com:8443/rest/api/2/customFieldOption/17756",
+						"value": "Data Systems",
+						"id": "17756"
+					}
+				],
+				"customfield_12363": null,
+				"customfield_14664": [
+					{
+						"self": "https://jira.cleverdevices.com:8443/rest/api/2/customFieldOption/17765",
+						"value": "Configuration",
+						"id": "17765"
+					}
+				],
+				"customfield_14661": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/customFieldOption/17752",
+					"value": "CleverWorks",
+					"id": "17752"
+				},
+				"customfield_14662": "3.3.0.263",
+				"customfield_12364": null,
+				"customfield_12488": null,
+				"customfield_14667": null,
+				"customfield_10860": "2018-06-17",
+				"labels": [
+					"Master",
+					"Pick",
+					"QA_DB"
+				],
+				"customfield_12489": null,
+				"aggregatetimeoriginalestimate": 0,
+				"issuelinks": [
+					{
+						"id": "118569",
+						"self": "https://jira.cleverdevices.com:8443/rest/api/2/issueLink/118569",
+						"type": {
+							"id": "10450",
+							"name": "Cloners",
+							"inward": "Cloned",
+							"outward": "Cloned",
+							"self": "https://jira.cleverdevices.com:8443/rest/api/2/issueLinkType/10450"
+						},
+						"outwardIssue": {
+							"id": "232777",
+							"key": "BTD-9396",
+							"self": "https://jira.cleverdevices.com:8443/rest/api/2/issue/232777",
+							"fields": {
+								"summary": "RTA - Busware parameter change required - TS ticket [2950] [pvt]",
+								"status": {
+									"self": "https://jira.cleverdevices.com:8443/rest/api/2/status/1",
+									"description": "The issue is open and ready for the assignee to start work on it.",
+									"iconUrl": "https://jira.cleverdevices.com:8443/images/icons/statuses/open.png",
+									"name": "Open",
+									"id": "1",
+									"statusCategory": {
+										"self": "https://jira.cleverdevices.com:8443/rest/api/2/statuscategory/2",
+										"id": 2,
+										"key": "new",
+										"colorName": "blue-gray",
+										"name": "To Do"
+									}
+								},
+								"priority": {
+									"self": "https://jira.cleverdevices.com:8443/rest/api/2/priority/4",
+									"iconUrl": "https://jira.cleverdevices.com:8443/images/icons/priorities/minor.svg",
+									"name": "Medium",
+									"id": "4"
+								},
+								"issuetype": {
+									"self": "https://jira.cleverdevices.com:8443/rest/api/2/issuetype/3",
+									"id": "3",
+									"description": "A task that needs to be done.",
+									"iconUrl": "https://jira.cleverdevices.com:8443/secure/viewavatar?size=xsmall&avatarId=13608&avatarType=issuetype",
+									"name": "Task",
+									"subtask": false,
+									"avatarId": 13608
+								}
+							}
+						}
+					},
+					{
+						"id": "119509",
+						"self": "https://jira.cleverdevices.com:8443/rest/api/2/issueLink/119509",
+						"type": {
+							"id": "10450",
+							"name": "Cloners",
+							"inward": "Cloned",
+							"outward": "Cloned",
+							"self": "https://jira.cleverdevices.com:8443/rest/api/2/issueLinkType/10450"
+						},
+						"inwardIssue": {
+							"id": "234332",
+							"key": "BTD-9472",
+							"self": "https://jira.cleverdevices.com:8443/rest/api/2/issue/234332",
+							"fields": {
+								"summary": " RTA - Parameter change for RTA ",
+								"status": {
+									"self": "https://jira.cleverdevices.com:8443/rest/api/2/status/6",
+									"description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+									"iconUrl": "https://jira.cleverdevices.com:8443/images/icons/statuses/closed.png",
+									"name": "Closed",
+									"id": "6",
+									"statusCategory": {
+										"self": "https://jira.cleverdevices.com:8443/rest/api/2/statuscategory/3",
+										"id": 3,
+										"key": "done",
+										"colorName": "green",
+										"name": "Done"
+									}
+								},
+								"priority": {
+									"self": "https://jira.cleverdevices.com:8443/rest/api/2/priority/4",
+									"iconUrl": "https://jira.cleverdevices.com:8443/images/icons/priorities/minor.svg",
+									"name": "Medium",
+									"id": "4"
+								},
+								"issuetype": {
+									"self": "https://jira.cleverdevices.com:8443/rest/api/2/issuetype/3",
+									"id": "3",
+									"description": "A task that needs to be done.",
+									"iconUrl": "https://jira.cleverdevices.com:8443/secure/viewavatar?size=xsmall&avatarId=13608&avatarType=issuetype",
+									"name": "Task",
+									"subtask": false,
+									"avatarId": 13608
+								}
+							}
+						}
+					}
+				],
+				"assignee": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/user?username=pkulkarni",
+					"name": "pkulkarni",
+					"key": "pkulkarni",
+					"emailAddress": "pkulkarni-consultant@CleverDevices.com",
+					"avatarUrls": {
+						"48x48": "https://jira.cleverdevices.com:8443/secure/useravatar?avatarId=10212",
+						"24x24": "https://jira.cleverdevices.com:8443/secure/useravatar?size=small&avatarId=10212",
+						"16x16": "https://jira.cleverdevices.com:8443/secure/useravatar?size=xsmall&avatarId=10212",
+						"32x32": "https://jira.cleverdevices.com:8443/secure/useravatar?size=medium&avatarId=10212"
+					},
+					"displayName": "Paritosh Kulkarni",
+					"active": true,
+					"timeZone": "America/New_York"
+				},
+				"customfield_16273": null,
+				"customfield_16272": null,
+				"components": [],
+				"customfield_15060": null,
+				"customfield_16271": null,
+				"customfield_15061": null,
+				"customfield_16270": null,
+				"customfield_16276": null,
+				"customfield_10050": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/customFieldOption/10081",
+					"value": "No",
+					"id": "10081"
+				},
+				"customfield_12471": null,
+				"customfield_16275": null,
+				"customfield_12470": null,
+				"customfield_16274": null,
+				"customfield_12473": null,
+				"customfield_12472": null,
+				"customfield_15863": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/customFieldOption/19677",
+					"value": "3-5,4-6 - CAN2",
+					"id": "19677"
+				},
+				"customfield_12469": null,
+				"customfield_16262": null,
+				"customfield_16261": null,
+				"customfield_16260": null,
+				"customfield_16266": null,
+				"customfield_16265": null,
+				"subtasks": [],
+				"customfield_16264": null,
+				"customfield_16263": null,
+				"customfield_12462": null,
+				"customfield_12461": null,
+				"customfield_16269": null,
+				"reporter": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/user?username=JiraToTeamSupport",
+					"name": "JiraToTeamSupport",
+					"key": "jiratoteamsupport",
+					"emailAddress": "JiraToTeamSupport@CleverDevices.com",
+					"avatarUrls": {
+						"48x48": "https://jira.cleverdevices.com:8443/secure/useravatar?avatarId=10212",
+						"24x24": "https://jira.cleverdevices.com:8443/secure/useravatar?size=small&avatarId=10212",
+						"16x16": "https://jira.cleverdevices.com:8443/secure/useravatar?size=xsmall&avatarId=10212",
+						"32x32": "https://jira.cleverdevices.com:8443/secure/useravatar?size=medium&avatarId=10212"
+					},
+					"displayName": "JiraToTeamSupport",
+					"active": true,
+					"timeZone": "America/New_York"
+				},
+				"customfield_12464": null,
+				"customfield_16268": null,
+				"customfield_12463": null,
+				"customfield_16267": null,
+				"customfield_12466": null,
+				"customfield_12465": null,
+				"customfield_14767": null,
+				"customfield_12468": null,
+				"customfield_12467": null,
+				"progress": {
+					"progress": 11040,
+					"total": 11040,
+					"percent": 100
+				},
+				"issuetype": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/issuetype/3",
+					"id": "3",
+					"description": "A task that needs to be done.",
+					"iconUrl": "https://jira.cleverdevices.com:8443/secure/viewavatar?size=xsmall&avatarId=13608&avatarType=issuetype",
+					"name": "Task",
+					"subtask": false,
+					"avatarId": 13608
+				},
+				"customfield_15160": null,
+				"customfield_11360": null,
+				"customfield_15961": null,
+				"project": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/project/10091",
+					"id": "10091",
+					"key": "BTD",
+					"name": "Data Systems",
+					"avatarUrls": {
+						"48x48": "https://jira.cleverdevices.com:8443/secure/projectavatar?pid=10091&avatarId=10011",
+						"24x24": "https://jira.cleverdevices.com:8443/secure/projectavatar?size=small&pid=10091&avatarId=10011",
+						"16x16": "https://jira.cleverdevices.com:8443/secure/projectavatar?size=xsmall&pid=10091&avatarId=10011",
+						"32x32": "https://jira.cleverdevices.com:8443/secure/projectavatar?size=medium&pid=10091&avatarId=10011"
+					},
+					"projectCategory": {
+						"self": "https://jira.cleverdevices.com:8443/rest/api/2/projectCategory/10030",
+						"id": "10030",
+						"description": "",
+						"name": "BusTools"
+					}
+				},
+				"customfield_10032": "2018-06-05T15:37:24.000-0400",
+				"customfield_10033": "1_*:*_1_*:*_855883000_*|*_4_*:*_1_*:*_13000_*|*_5_*:*_2_*:*_158000_*|*_6_*:*_1_*:*_4694000",
+				"resolutiondate": "2018-06-14T09:55:02.000-0400",
+				"customfield_16361": null,
+				"customfield_16360": null,
+				"watches": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/issue/BTD-9397/watchers",
+					"watchCount": 4,
+					"isWatching": true
+				},
+				"customfield_16365": null,
+				"customfield_16364": null,
+				"customfield_16363": null,
+				"customfield_16362": null,
+				"customfield_12561": null,
+				"customfield_10020": null,
+				"customfield_10141": [
+					{
+						"self": "https://jira.cleverdevices.com:8443/rest/api/2/customFieldOption/10243",
+						"value": "Customer Site",
+						"id": "10243"
+					}
+				],
+				"customfield_12560": null,
+				"customfield_10021": [
+					{
+						"self": "https://jira.cleverdevices.com:8443/rest/api/2/customFieldOption/15778",
+						"value": "RTA - Riverside",
+						"id": "15778"
+					}
+				],
+				"customfield_16367": null,
+				"customfield_10022": null,
+				"customfield_12562": null,
+				"customfield_16366": null,
+				"customfield_16800": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/user?username=cbonetti",
+					"name": "cbonetti",
+					"key": "cbonetti",
+					"emailAddress": "cbonetti@CleverDevices.com",
+					"avatarUrls": {
+						"48x48": "https://jira.cleverdevices.com:8443/secure/useravatar?avatarId=10212",
+						"24x24": "https://jira.cleverdevices.com:8443/secure/useravatar?size=small&avatarId=10212",
+						"16x16": "https://jira.cleverdevices.com:8443/secure/useravatar?size=xsmall&avatarId=10212",
+						"32x32": "https://jira.cleverdevices.com:8443/secure/useravatar?size=medium&avatarId=10212"
+					},
+					"displayName": "Chris Bonetti",
+					"active": true,
+					"timeZone": "America/New_York"
+				},
+				"updated": "2018-06-14T09:55:09.000-0400",
+				"customfield_15381": null,
+				"customfield_15382": null,
+				"customfield_15261": null,
+				"customfield_15380": null,
+				"customfield_15385": null,
+				"customfield_15386": null,
+				"customfield_15383": null,
+				"customfield_15384": null,
+				"timeoriginalestimate": 0,
+				"description": "Please test RTA 17th June pick database",
+				"customfield_10010": null,
+				"customfield_10006": null,
+				"customfield_10007": null,
+				"customfield_10009": null,
+				"summary": "QA- RTA - QA Pick changes ",
+				"customfield_15370": null,
+				"customfield_16460": null,
+				"customfield_16581": null,
+				"customfield_15371": null,
+				"customfield_16580": null,
+				"customfield_15374": null,
+				"customfield_15372": null,
+				"customfield_15373": null,
+				"customfield_16461": null,
+				"customfield_10360": null,
+				"customfield_14961": null,
+				"customfield_10000": null,
+				"customfield_10002": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/customFieldOption/10001",
+					"value": "Medium",
+					"id": "10001"
+				},
+				"customfield_10003": null,
+				"environment": null,
+				"duedate": null,
+				"customfield_16570": null,
+				"customfield_16691": null,
+				"customfield_15360": null,
+				"customfield_16690": null,
+				"customfield_15363": null,
+				"customfield_16695": null,
+				"customfield_16574": null,
+				"customfield_15364": null,
+				"customfield_16694": null,
+				"customfield_16573": null,
+				"customfield_15361": null,
+				"customfield_16572": null,
+				"customfield_16693": null,
+				"customfield_16692": null,
+				"customfield_15367": null,
+				"customfield_15368": null,
+				"customfield_15365": null,
+				"customfield_16576": null,
+				"fixVersions": [
+					{
+						"self": "https://jira.cleverdevices.com:8443/rest/api/2/version/25592",
+						"id": "25592",
+						"description": "",
+						"name": "RTA_Jun2018_Rev1",
+						"archived": false,
+						"released": true,
+						"releaseDate": "2018-06-17"
+					}
+				],
+				"customfield_10110": null,
+				"customfield_13860": "2|i03b1r:",
+				"customfield_15366": null,
+				"customfield_16575": null,
+				"customfield_16680": null,
+				"customfield_14260": null,
+				"customfield_16684": null,
+				"customfield_16563": null,
+				"customfield_16683": null,
+				"customfield_16562": null,
+				"customfield_16561": null,
+				"customfield_16682": null,
+				"customfield_16681": null,
+				"customfield_16688": null,
+				"customfield_16567": null,
+				"customfield_16566": null,
+				"customfield_16687": null,
+				"customfield_16686": null,
+				"customfield_16565": null,
+				"customfield_10462": null,
+				"customfield_16564": null,
+				"customfield_16685": null,
+				"priority": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/priority/4",
+					"iconUrl": "https://jira.cleverdevices.com:8443/images/icons/priorities/minor.svg",
+					"name": "Medium",
+					"id": "4"
+				},
+				"customfield_10463": null,
+				"customfield_10465": "9223372036854775807",
+				"customfield_16569": null,
+				"customfield_10466": null,
+				"customfield_16689": null,
+				"customfield_16568": null,
+				"timeestimate": 0,
+				"versions": [
+					{
+						"self": "https://jira.cleverdevices.com:8443/rest/api/2/version/10540",
+						"id": "10540",
+						"description": "",
+						"name": "1.0",
+						"archived": false,
+						"released": false
+					}
+				],
+				"status": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/status/6",
+					"description": "The issue is considered finished, the resolution is correct. Issues which are closed can be reopened.",
+					"iconUrl": "https://jira.cleverdevices.com:8443/images/icons/statuses/closed.png",
+					"name": "Closed",
+					"id": "6",
+					"statusCategory": {
+						"self": "https://jira.cleverdevices.com:8443/rest/api/2/statuscategory/3",
+						"id": 3,
+						"key": "done",
+						"colorName": "green",
+						"name": "Done"
+					}
+				},
+				"customfield_15462": null,
+				"customfield_16673": null,
+				"customfield_16794": null,
+				"customfield_14374": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/user?username=psingh",
+					"name": "psingh",
+					"key": "psingh",
+					"emailAddress": "psingh@cleverdevices.com",
+					"avatarUrls": {
+						"48x48": "https://jira.cleverdevices.com:8443/secure/useravatar?avatarId=10192",
+						"24x24": "https://jira.cleverdevices.com:8443/secure/useravatar?size=small&avatarId=10192",
+						"16x16": "https://jira.cleverdevices.com:8443/secure/useravatar?size=xsmall&avatarId=10192",
+						"32x32": "https://jira.cleverdevices.com:8443/secure/useravatar?size=medium&avatarId=10192"
+					},
+					"displayName": "Parminder Singh",
+					"active": true,
+					"timeZone": "America/New_York"
+				},
+				"customfield_16672": null,
+				"customfield_16793": null,
+				"customfield_15460": null,
+				"customfield_16671": null,
+				"customfield_16792": null,
+				"customfield_15461": null,
+				"customfield_16670": null,
+				"customfield_16791": null,
+				"customfield_16677": null,
+				"customfield_16798": 1528979795000,
+				"customfield_16676": null,
+				"customfield_16797": 1528979795000,
+				"customfield_16675": null,
+				"customfield_16796": null,
+				"customfield_16674": null,
+				"customfield_16795": null,
+				"customfield_16679": null,
+				"customfield_16678": null,
+				"customfield_16799": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/user?username=cbonetti",
+					"name": "cbonetti",
+					"key": "cbonetti",
+					"emailAddress": "cbonetti@CleverDevices.com",
+					"avatarUrls": {
+						"48x48": "https://jira.cleverdevices.com:8443/secure/useravatar?avatarId=10212",
+						"24x24": "https://jira.cleverdevices.com:8443/secure/useravatar?size=small&avatarId=10212",
+						"16x16": "https://jira.cleverdevices.com:8443/secure/useravatar?size=xsmall&avatarId=10212",
+						"32x32": "https://jira.cleverdevices.com:8443/secure/useravatar?size=medium&avatarId=10212"
+					},
+					"displayName": "Chris Bonetti",
+					"active": true,
+					"timeZone": "America/New_York"
+				},
+				"aggregatetimeestimate": 0,
+				"creator": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/user?username=psingh",
+					"name": "psingh",
+					"key": "psingh",
+					"emailAddress": "psingh@cleverdevices.com",
+					"avatarUrls": {
+						"48x48": "https://jira.cleverdevices.com:8443/secure/useravatar?avatarId=10192",
+						"24x24": "https://jira.cleverdevices.com:8443/secure/useravatar?size=small&avatarId=10192",
+						"16x16": "https://jira.cleverdevices.com:8443/secure/useravatar?size=xsmall&avatarId=10192",
+						"32x32": "https://jira.cleverdevices.com:8443/secure/useravatar?size=medium&avatarId=10192"
+					},
+					"displayName": "Parminder Singh",
+					"active": true,
+					"timeZone": "America/New_York"
+				},
+				"customfield_16662": null,
+				"customfield_16783": null,
+				"customfield_16661": null,
+				"customfield_16782": null,
+				"customfield_16660": null,
+				"customfield_16781": null,
+				"customfield_16780": null,
+				"customfield_16666": null,
+				"customfield_16787": null,
+				"customfield_16665": null,
+				"customfield_16786": null,
+				"customfield_10560": null,
+				"customfield_16664": null,
+				"customfield_16785": null,
+				"customfield_10561": null,
+				"customfield_16663": null,
+				"customfield_16784": null,
+				"aggregateprogress": {
+					"progress": 11040,
+					"total": 11040,
+					"percent": 100
+				},
+				"customfield_10562": null,
+				"customfield_16669": null,
+				"customfield_16668": null,
+				"customfield_16789": null,
+				"customfield_12863": null,
+				"customfield_16667": null,
+				"customfield_16788": null,
+				"customfield_15561": "409",
+				"customfield_16772": null,
+				"customfield_15562": "Riverside Transit",
+				"customfield_16771": null,
+				"customfield_16770": null,
+				"timespent": 11040,
+				"customfield_16776": null,
+				"customfield_16775": null,
+				"customfield_15563": null,
+				"customfield_16774": null,
+				"aggregatetimespent": 11040,
+				"customfield_16779": null,
+				"customfield_16778": null,
+				"customfield_16777": null,
+				"workratio": 9223372036854775807,
+				"customfield_16761": null,
+				"customfield_16760": null,
+				"created": "2018-06-04T10:49:14.000-0400",
+				"customfield_16765": null,
+				"customfield_16764": null,
+				"customfield_16763": null,
+				"customfield_10660": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/customFieldOption/11951",
+					"value": "False",
+					"id": "11951"
+				},
+				"customfield_10661": "cleverworks",
+				"customfield_16769": null,
+				"customfield_16768": null,
+				"customfield_16767": null,
+				"customfield_16766": null,
+				"customfield_13360": null,
+				"customfield_11061": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/customFieldOption/12352",
+					"value": "No",
+					"id": "12352"
+				},
+				"customfield_15661": null,
+				"customfield_11980": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/user?username=cbonetti",
+					"name": "cbonetti",
+					"key": "cbonetti",
+					"emailAddress": "cbonetti@CleverDevices.com",
+					"avatarUrls": {
+						"48x48": "https://jira.cleverdevices.com:8443/secure/useravatar?avatarId=10212",
+						"24x24": "https://jira.cleverdevices.com:8443/secure/useravatar?size=small&avatarId=10212",
+						"16x16": "https://jira.cleverdevices.com:8443/secure/useravatar?size=xsmall&avatarId=10212",
+						"32x32": "https://jira.cleverdevices.com:8443/secure/useravatar?size=medium&avatarId=10212"
+					},
+					"displayName": "Chris Bonetti",
+					"active": true,
+					"timeZone": "America/New_York"
+				},
+				"customfield_15662": null,
+				"customfield_11860": null,
+				"customfield_11981": 1528984502000,
+				"customfield_11975": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/user?username=pkulkarni",
+					"name": "pkulkarni",
+					"key": "pkulkarni",
+					"emailAddress": "pkulkarni-consultant@CleverDevices.com",
+					"avatarUrls": {
+						"48x48": "https://jira.cleverdevices.com:8443/secure/useravatar?avatarId=10212",
+						"24x24": "https://jira.cleverdevices.com:8443/secure/useravatar?size=small&avatarId=10212",
+						"16x16": "https://jira.cleverdevices.com:8443/secure/useravatar?size=xsmall&avatarId=10212",
+						"32x32": "https://jira.cleverdevices.com:8443/secure/useravatar?size=medium&avatarId=10212"
+					},
+					"displayName": "Paritosh Kulkarni",
+					"active": true,
+					"timeZone": "America/New_York"
+				},
+				"customfield_11974": [
+					{
+						"a": {
+							"active": true
+						},
+						"b": {
+							"active": true
+						},
+						"c": 1528979637000,
+						"d": 1528984489000
+					}
+				],
+				"customfield_11977": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/user?username=cbonetti",
+					"name": "cbonetti",
+					"key": "cbonetti",
+					"emailAddress": "cbonetti@CleverDevices.com",
+					"avatarUrls": {
+						"48x48": "https://jira.cleverdevices.com:8443/secure/useravatar?avatarId=10212",
+						"24x24": "https://jira.cleverdevices.com:8443/secure/useravatar?size=small&avatarId=10212",
+						"16x16": "https://jira.cleverdevices.com:8443/secure/useravatar?size=xsmall&avatarId=10212",
+						"32x32": "https://jira.cleverdevices.com:8443/secure/useravatar?size=medium&avatarId=10212"
+					},
+					"displayName": "Chris Bonetti",
+					"active": true,
+					"timeZone": "America/New_York"
+				},
+				"customfield_16860": null,
+				"customfield_16861": null,
+				"customfield_10760": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/user?username=rkulkarni",
+					"name": "rkulkarni",
+					"key": "rkulkarni",
+					"emailAddress": "rkulkarni@CleverDevices.com",
+					"avatarUrls": {
+						"48x48": "https://jira.cleverdevices.com:8443/secure/useravatar?ownerId=rkulkarni&avatarId=18593",
+						"24x24": "https://jira.cleverdevices.com:8443/secure/useravatar?size=small&ownerId=rkulkarni&avatarId=18593",
+						"16x16": "https://jira.cleverdevices.com:8443/secure/useravatar?size=xsmall&ownerId=rkulkarni&avatarId=18593",
+						"32x32": "https://jira.cleverdevices.com:8443/secure/useravatar?size=medium&ownerId=rkulkarni&avatarId=18593"
+					},
+					"displayName": "Rohan Kulkarni",
+					"active": true,
+					"timeZone": "America/New_York"
+				},
+				"customfield_11970": 1528979637000,
+				"customfield_11973": 1.0,
+				"customfield_11972": 1528984489000,
+				"customfield_11964": 1528227444000,
+				"customfield_11966": 1528984489000,
+				"customfield_11967": {
+					"self": "https://jira.cleverdevices.com:8443/rest/api/2/user?username=cbonetti",
+					"name": "cbonetti",
+					"key": "cbonetti",
+					"emailAddress": "cbonetti@CleverDevices.com",
+					"avatarUrls": {
+						"48x48": "https://jira.cleverdevices.com:8443/secure/useravatar?avatarId=10212",
+						"24x24": "https://jira.cleverdevices.com:8443/secure/useravatar?size=small&avatarId=10212",
+						"16x16": "https://jira.cleverdevices.com:8443/secure/useravatar?size=xsmall&avatarId=10212",
+						"32x32": "https://jira.cleverdevices.com:8443/secure/useravatar?size=medium&avatarId=10212"
+					},
+					"displayName": "Chris Bonetti",
+					"active": true,
+					"timeZone": "America/New_York"
+				},
+				"customfield_16060": null
+			}
+		}
+	]
+}

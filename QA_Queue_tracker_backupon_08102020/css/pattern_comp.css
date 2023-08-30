@@ -1,0 +1,864 @@
+body
+{
+ font-family: "Verdana", Times, serif;
+ font-size:8px
+}
+
+div.header
+{
+	width:100%;
+	height:100;
+	background-color:#AEB6BF;
+	text-align:left;
+	border-radius: 25px;
+	font-size:20px;
+	color:white;
+	vertical-align: middle;
+	line-height: 90px;
+}
+
+div.leftpane
+{
+	width:150;
+	height:650;
+	background-color:#AEB6BF;
+	text-align:left;
+	border-radius: 25px;
+}
+
+div.pageheading
+{
+	position:absolute;
+	width:200;
+	height:20;
+	background-color:#A9DFBF;
+	text-align:center;
+	font-family:"Georgia";
+	color:Black;
+	border-radius: 10px;
+	color:Black;
+	left: 160;
+	top: 120;
+	font-size:12px;
+}
+
+
+
+div.usernamedisplay
+{
+	position:absolute;
+	width:200;
+	height:20;
+	background-color:#A9DFBF;
+	text-align:center;
+	font-family:"Georgia";
+	color:Black;
+	border-radius: 10px;
+	color:Black;
+	left: 1300;
+	top: 120;
+	font-size:12px;
+}
+
+
+div.container
+{
+	position:absolute;
+	width:1340;
+	height:610;
+	background-color:#F8F9F9;
+	text-align:center;
+	border-radius: 10px;
+	color:Black;
+	left: 160;
+	top: 150;
+	font-size:12px;
+}
+.containerheader
+{
+	position:absolute;
+	width:500;
+	height:20;
+	background-color:#2E86C1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 350;
+	top: 10;
+	font-size:12px;
+	
+}
+.containerbutton
+{
+	position:absolute;
+	width:200;
+	height:40;
+	background-color:#2E86C1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 300;
+	top: 600;
+	font-size:12px;
+}
+.tablebody
+{
+	position:absolute;
+	width:1320;
+	height:530;
+	background-color:#AED6F1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 20;
+	top: 40;
+	font-size:12px;
+	overflow-y: auto;
+	
+}
+
+.tablebody_versions
+{
+	position:absolute;
+	width:1320;
+	height:530;
+	background-color:#AED6F1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 20;
+	top: 40;
+	font-size:12px;
+	overflow-y: auto;
+	
+}
+.tablebody_released
+{
+	position:absolute;
+	width:1320;
+	height:400;
+	background-color:#AED6F1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 20;
+	top: 149;
+	font-size:12px;
+	overflow-y: auto;
+	
+}
+
+.filterbody
+{
+	position:absolute;
+	width:650;
+	height:110;
+	background-color:#84DFD5;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	font-size:16px;
+	color:white;
+	left: 20;
+	top: 40;
+	overflow-y: auto;
+	
+}
+.filterfont
+{
+      font-family: Georgia;
+      font-size: 9px;
+	  color: Black;
+}
+
+table.outer
+{
+	background-color:#D3FDFD;
+}
+tr.styleheader
+{
+	 font-family: "Georgia", Times, serif;
+	 font-size:30px;
+	 border: 1px;
+}
+table.inner
+{
+	border:3px;
+	width:900;
+	height:200;
+	background-color:#D3FDFD;
+	align:center;
+	border-radius:20px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	border-radius: 10px;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+	border-radius: 10px;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.textfont
+{
+	font-family: "Georgia", Times, serif;
+    font-size:12px
+	
+}
+
+img.logo
+{
+	position:absolute;
+	top:20;
+	left:20;
+}
+
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Georgia;
+  font-size:10px;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: #EBF5FB;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #EBF5FB;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* hide inpou*/
+.inputfile
+{
+	width:0.1px;
+	height:0.1px;
+	opacity:0;
+	overflow:hidden;
+	position:ablolute;
+	z-index:-1
+}
+.inputfile + label
+{
+font-size:15px;
+font-weight:50;
+color: Black;
+background-color:#EBF5FB;
+display:inline-block;
+
+}
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #0F9AED;
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+td.header
+{
+	  font-family: Georgia;
+      font-size: 10px;
+	  color: #ffffff;
+	  font-weight:Bold;
+	  background-color:#2E86C1;
+	text-align:center;
+	border-radius: 5px;
+	font-family:"Georgia" ;
+
+}
+
+td.header_single
+{
+	  font-family: Georgia;
+      font-size: 10px;
+	  color: #ffffff;
+	  font-weight:Bold;
+	  background-color:#059AB9;
+	text-align:center;
+	border-radius: 5px;
+	font-family:"Georgia" ;
+
+}
+
+td.record_even
+{
+	  font-family: Georgia;
+      font-size: 9px;
+	  color: Black;
+	  /*font-weight:Bold;*/
+	  background-color:#b3fff0;
+	text-align:center;
+	border-radius: 5px;
+	font-family:"Georgia" ;
+
+}
+
+td.record_Odd
+{
+	  font-family: Georgia;
+      font-size: 9px;
+	  color: Black;
+	  /*font-weight:Bold;*/
+	  background-color:#66ffe0;
+	text-align:center;
+	border-radius: 5px;
+	font-family:"Georgia" ;
+}
+
+.tablebody_sub
+{
+	position:absolute;
+	width:500;
+	height:550;
+	background-color:#AED6F1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 10;
+	top: 10;
+	font-size:12px;
+	
+}
+
+.tablebody_version
+{
+	position:absolute;
+	width:500;
+	height:280;
+	background-color:#AED6F1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 10;
+	top: 10;
+	font-size:12px;
+	
+}
+
+
+.tablebody_checkist
+{
+	position:absolute;
+	width:800;
+	height:350;
+	background-color:#AED6F1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 10;
+	top: 10;
+	font-size:12px;
+	
+}
+
+tr.headerfont
+{
+	font-family: verdana;
+      font-size: 10px;
+	  color: #ffffff;
+	  font-weight:Bold;
+	  background-color:#2E86C1;
+}
+
+.button_area
+{
+	position:absolute;
+	width:130;
+	height:30;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 350;
+	top: 5;
+	font-size:12px;
+	
+}
+div.button_container
+{
+	position:absolute;
+	width:20;
+	height:20;
+	background-color:#F8F9F9;
+	text-align:center;
+	border-radius: 10px;
+	color:Black;
+	left: 200;
+	top: 570;
+	font-size:12px;
+	
+}
+
+div.Download
+{
+	position:relative;
+	width:150;
+	height:20;
+	background-color:#80ffbf;
+	text-align:center;
+	border-radius: 10px;
+	color:Black;
+	left: 1330;
+	top: -31;
+	font-size:12px;
+	
+}
+
+.Numberofrecords
+{
+	position:absolute;
+	width:150;
+	height:20;
+	background-color:#2E86C1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 10;
+	top: 10;
+	font-size:12px;
+	
+}
+
+.pagenumbers
+{
+	position:absolute;
+	width:350;
+	height:20;
+	text-align:center;
+	border-radius: 9px;
+	font-family:"Georgia";
+	color:white;
+	left: 1000;
+	top: 10;
+	font-size:10px;
+	
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 2px 8px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}\
+
+/*Left Side Navigation*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 10px;
+  text-decoration: none;
+  border-radius:25px;
+  font-family:"Georgia";
+  font-size:12px;
+  font-weight: bold;
+}
+
+li a.active {
+  background-color: #2E86C1;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.navigationcontainer
+{
+	position:absolute;
+	width:150;
+	height:20;
+	font-family:"Georgia";
+	color:white;
+	left: 0;
+	top: 140;
+	font-size:12px;
+	
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button_edit {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 0px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  margin: 2px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2_edit {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2_edit:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.tablebody_sub_createpr
+{
+	position:absolute;
+	width:700;
+	height:370;
+	background-color:#AED6F1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 10;
+	top: 10;
+	font-size:12px;
+	
+}
+.boldtext
+{
+	font-weight: bold;
+}
+
+input[type=text] {
+  width: 80%;
+  padding: 0px 1px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+div.or
+{
+	position:absolute;
+	width:60;
+	height:20;
+	background-color:#2E86C1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 550;
+	top: 150;
+	font-size:12px;
+}
+div.search-by-customers-container
+{
+    position:absolute;
+	width:500;
+	height:20;
+	background-color:#2E86C1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 330;
+	top: 50;
+	font-size:12px;	
+	font-weight:Bold;
+}
+div.search-by-cwversion-container
+{
+	position:absolute;
+	width:500;
+	height:20;
+	background-color:#2E86C1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 330;
+	top: 200;
+	font-size:12px;	
+	font-weight:Bold;
+}
+div.button_container_version
+{
+	position:absolute;
+	width:20;
+	height:20;
+	text-align:center;
+	left: 200;
+	top: 400;
+	font-size:12px;
+
+	
+}
+div.search-table_customer
+{
+	position:absolute;
+	width:500;
+	height:30;
+	text-align:center;
+	border-radius: 10px;
+	color:Black;
+	left: 330;
+	top: 70;
+	font-size:12px;
+	font-family:"Georgia";
+}
+div.search-table_cwversion
+{
+	position:absolute;
+	width:500;
+	height:30;
+	text-align:center;
+	border-radius: 10px;
+	color:Black;
+	left: 330;
+	top: 220;
+	font-size:12px;
+	font-family:"Georgia";
+}
+table.versiontable
+{
+	width:500;
+	height:20;
+	align:center;
+	
+}
+.button_version {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2_version {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2_version:hover {
+  background-color: #008CBA;
+  color: white;
+}
+div.versionnumber
+{
+	position:absolute;
+	width:250;
+	height:30;
+	text-align:center;
+	left: 490;
+	top: 50;
+	background-color:#008CBA;
+	font-size:22px;
+	font-family:"Georgia";
+	font-weight:Bold;
+	border-radius:10px
+
+}
+div.versiontable
+{
+	position:absolute;
+	width:600;
+	height:300;
+	left: 310;
+	top: 100;
+	font-size:26px;
+	font-family:"Georgia";
+	font-weight:Bold;
+	border-radius:10px
+}
+div.customer_summary
+{
+	position:absolute;
+	width:1000;
+	height:200;
+	left: 10;
+	top: 180;
+	font-size:26px;
+	font-family:"Georgia";
+	font-weight:Bold;
+	border-radius:10px
+}
+div.customer-summ-numbers
+{
+	position:absolute;
+	width:600;
+	height:200;
+	left: 310;
+	top: 300;
+	font-size:26px;
+	font-family:"Georgia";
+	font-weight:Bold;
+	border-radius:10px
+}
+
+
+.active_deactive
+{
+	position:absolute;
+	width:150;
+	height:50;
+	background-color:#AED6F1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Georgia";
+	color:white;
+	left: 10;
+	top: 10;
+	font-size:12px;
+	
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

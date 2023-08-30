@@ -1,0 +1,432 @@
+/*@import url("https://www.vmware.com/files/templates/inc/kb.css");*/
+@import url(kb.css);
+
+.tbl_sg_parent {
+	border-top:medium none;
+	border-top:1px solid #CCCCCC;
+	padding-top:7px;
+	background:none repeat scroll 0 0 #EEEEEE;
+	padding:5px;
+	width:100%;
+	margin-bottom:0;
+	float:none;
+}
+
+
+.treediv {font-size: 12px;padding: 5px;}
+.treeicon{width:18px;padding-left:4px;}
+.treenode {display:block; margin-left: 1em;}
+.treenode_block {display:block; margin-left: 1em}
+.treenode_none {display:none; margin-left: 1em;}
+
+.control_category {
+	width:190px;
+}
+.control_product {
+	border:medium none;
+	color:#000000;
+	/*height:18px;*/
+	padding:0 1px 0 2px;
+	width:400px;
+}
+.more {color:#39C}
+/* Accordion */
+.myAccordion 
+{
+	background-color: transparent;
+	background-image: url("https://www.vmware.com/files/templates/images/bg-tech-side-heading.gif");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: left top;
+	width: 222px;
+}
+#accordion-navigation {
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	list-style:none outside none;
+	margin:4px 0 0 2px;
+	padding:0;
+	width:218px;
+}
+#accordion-navigation li /* http://wcm-training.vmware.com/files/html/kb_files/kb.css (line 186) */
+{
+	background-color: #eeeeee;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #cccccc;
+	padding-top: 1px;
+	padding-right: 0pt;
+	padding-bottom: 1px;
+	padding-left: 6px;
+}
+#accordion-navigation li.first 
+{
+	border-top-width: medium;
+	border-top-style: none;
+	border-top-color: -moz-use-text-color;
+
+}
+
+#accordion-navigation li a 
+{
+	display: block;
+	padding-top: 5px;
+	padding-right: 0pt;
+	padding-bottom: 5px;
+	padding-left: 19px;
+	text-decoration: none;
+	background-color: transparent;
+	background-image: url("https://www.vmware.com/files/templates/images/boxgrey_minus.gif");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 0pt 6px;
+	cursor:URL;
+}
+
+#accordion-navigation li a.accordionToggleItem
+{
+	background-color: transparent;
+	background-image: url("https://www.vmware.com/files/templates/images/boxgrey_plus.gif"); 
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 0pt 6px;
+}
+#accordion-navigation li a.accordionLink
+{
+	background-color: transparent;
+	background-image: url("https://www.vmware.com/files/templates/images/bullet-more-links.gif");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 0pt 6px;
+}
+
+
+#accordion-navigation li div.selected a.accordionToggleItem  {
+	background-image: url("https://www.vmware.com/files/templates/images/boxgrey_minus.gif");
+}
+
+
+.yui-cms-accordion 
+{
+	background-color: transparent;
+	background-image: url("https://www.vmware.com/files/templates/images/bg-tech-side-nav-bottom.gif");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: left bottom;
+	padding-bottom: 9px;
+}
+.yui-skin-sam .yui-cms-accordion .yui-cms-item .bd 
+{
+	background-color: #ffffff;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	margin-left: -6px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0pt;
+	padding-left: 18px;
+	width: 190px;
+
+}
+.yui-skin-sam .yui-cms-accordion .yui-cms-item .bd .fixed 
+{
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+#accordion-navigation li h5 a 
+{
+	display: block;
+	text-decoration: none;
+}
+
+#accordion-navigation li div a 
+{
+	background-color: transparent;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	padding-left: 0px;
+}
+
+#accordion-navigation li h5 a:hover 
+{
+	background-color: transparent;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	text-decoration: underline;
+}
+.hxd 
+{
+	padding-left:20px;
+	height : 1%;
+}
+/* end Accordion */
+
+div.docinfo ul.links li a.kbrss{ padding-left:25px; padding-bottom:2px; height:22px; text-align:bottom;background-image:url('../images/twit_rss.png'); background-position:0px 0px; background-repeat:no-repeat;}
+div.feedbackform {
+	border-bottom: 1px solid #A1C2E1;
+	border-top: 1px solid #A1C2E1;
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 5px 0px;
+	padding: 5px 0px;
+}
+.feedbackheading {
+	color:#F90;
+	font-size:16px;
+	font-weight:bold;
+	line-height:16px;	
+	padding:10px 5px 10px 10px;
+	border-bottom: 1px solid #A1C2E1;
+}
+ul#additionalfooteritems {
+	margin:10px;
+	padding:0;
+	list-style:none;
+	
+}
+ul#additionalfooteritems li {
+	display:inline;
+}
+
+ul#additionalfooteritems li a span{
+	font-size:12px;
+}
+
+ul#additionalfooteritems li#watchkbtv {
+	padding:20px;	
+}
+
+ul#additionalfooteritems li#followus {
+	padding:20 20 20 0px;	
+}
+
+ul#additionalfooteritems li#readblog a {
+	padding-left:20px; padding-bottom:35px;  height:30px; vertical-align:top; background-image:url('../img/blog-icon-red-16.png'); background-position:0px 0px; background-repeat:no-repeat;
+}
+
+ul#additionalfooteritems li#watchkbtv a {
+	padding-left:20px; padding-bottom:35px;  height:30px; vertical-align:top; background-image:url('../img/youtube_icon.png'); background-position:0px 0px; background-repeat:no-repeat;
+}
+
+ul#additionalfooteritems li#followus a {
+	padding-left:20px; padding-bottom:35px;  height:30px; vertical-align:top; background-image:url('../img/twitter-icon.png'); background-position:0px 0px; background-repeat:no-repeat;
+}
+.kbresultstab  {
+	border:0px none #A0C3E3;
+	margin-bottom:10px;
+	margin-top:5px;
+	padding:0 0 16px 0;
+}
+.vmresultsheader strong , .vmresultsheader span {color:white}
+.vmsearchresults {
+	border:none;
+}
+
+
+.focuschoiceswidget {
+	border:0px solid #A0C3E3;
+	margin-left:5px;
+	margin-top:5px;
+}
+
+.kbdocshead {
+	background:url("https://www.vmware.com/files/images/kb/support_bg_header.gif") repeat-x scroll left top #9EBFDE;
+	color:#666666;
+	font-size:11px;
+	font-weight:bold;
+	padding:6px 6px 6px 10px;
+}
+.vmresults {		
+	border-right:1px solid #cccccc;
+	padding:6px 10px 5px;
+	border-top:none;
+	border-left:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;			
+}
+.tbbreadcrumb {	
+	border-top:none;
+	border-left:1px solid #cccccc;
+	border-bottom:none;
+	border-right:1px solid #cccccc;
+	width:485px;	
+	padding: 6px 10px 5px; 
+}
+.vmdoc {
+	background-color:#eeeeee;
+	border-top:0 solid #CCCCCC;
+	clear:both;
+	margin-bottom:5px;
+	/*padding:10px;*/
+}
+.focuschoiceswidget {
+	border:0 solid #A0C3E3;
+	margin-left:0px;
+	margin-top:0px; 
+	background:url("https://www.vmware.com/files/templates/images/bg-tech-side-nav-bottom.gif") no-repeat scroll left bottom transparent;
+	padding:0 10px 9px 0;
+}
+#gsnavigation  {
+	background:url("//www.vmware.com/files/templates/images/bg-tech-side-heading.gif") no-repeat scroll left top transparent;
+	width:222px;
+	border:0px solid #A0C3E3;
+}
+
+.gsnavigationheader {
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+	margin:0;
+	padding:8px 8px 8px 20px;
+}
+.kbdocshead span.body_whitegold {
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+	margin:0;
+	padding:8px 8px 8px 20px;
+}
+.GS_header  {
+	color:#000000;
+	font-size:12px;
+	font-weight:normal;
+	background:none repeat scroll 0 0 #EEEEEE;
+}
+._485 {
+	width:485px;
+	_width:485px;	
+}
+
+
+h4.docheading {
+	color:#F90;
+}
+.vmsearchentrybottom {
+	background:none;
+	padding-top:0px;
+	
+}
+
+#content blockquote{
+	background:none;
+}
+.btnbackwhite {
+	margin:0px;
+	padding:0px;
+	width:67px;
+	height:24px;
+	border:none;
+	background:transparent url('https://www.vmware.com/files/images/buttons/btn_back-s.png') no-repeat 0 0;
+	cursor: hand;
+}
+.btnstartover {
+	margin:0px;
+	padding:0px;
+	width:85px;
+	height:24px;
+	border:none;
+	background:transparent url('https://www.vmware.com/files/images/buttons/btn_start-over.png') no-repeat 0 0;
+	cursor: hand;
+}
+.btncontinue {
+	margin:0px;
+	padding:0px;
+	width:80px;
+	height:24px;
+	border:none;
+	background:transparent url('https://www.vmware.com/files/images/buttons/btn_continue.png') no-repeat 0 0;
+	cursor: hand;
+}
+.btnnext {
+	margin:0px;
+	padding:0px;
+	width:80px;
+	height:24px;
+	border:none;
+	background:transparent url('https://www.vmware.com/files/images/buttons/btn_next.png') no-repeat 0 0;
+	cursor: hand;
+}
+.newsearchbutton {
+	margin:0px;
+	padding:0px;
+	width:69px;
+	height:24px;
+	border:none;
+	background:transparent url('https://www.vmware.com/files/images/buttons/btn_search.png') no-repeat 0 0;
+	cursor: hand;
+}
+.submitbutton{
+	margin:0px;
+	padding:0px;
+	width:69px;
+	height:24px;
+	border:none;
+	background:transparent url(../img/kss/btn_submit.png) no-repeat 0 0;
+	cursor: hand;
+}
+
+.doctitle {
+	font-size:12px;
+	margin:0px;
+}
+table.tbbreadcrumb{ width:100%;} 
+.p_attachment_total_0 {display:none;vsibility:hidden;}
+.vmbestbet{background-color:#e9f0f7;margin-bottom:2px;}
+.cc_Update_History { white-space:pre;}
+
+div.kbtab {
+	background:url("//www.vmware.com/files/images/kb/bg_top.png") repeat-x scroll left top transparent;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	margin:-1px 0 0;
+	padding:10px 0 5px 10px;
+}
+
+div.kbthreecol {
+	width:460px;
+}
+div.kbtwocol{
+	width:690px;
+}
+.umbrowse{
+	width:222px;
+}
+
+.media,.video,.audio {
+	position:inherit;
+	padding:0 16px 0 0
+}
+
+
+a.contactus {
+	background:url("../img/kss/Community.jpg") no-repeat scroll left 0px transparent;
+	padding:0 0px 0 15px;
+	margin-left:15px;
+}
+
+a.requestnewcontent {
+	background:url("../img/kss/icn_subnav_collapse.gif") no-repeat scroll left 2px transparent;
+	padding:0 0px 0 15px;
+	margin-left:15px;
+}
+.fw{
+	width:712px;
+}
+
+
+.secondsection{
+	margin: 0px; padding: 0px; position: relative; top: 20px; font-size: 12px;
+}

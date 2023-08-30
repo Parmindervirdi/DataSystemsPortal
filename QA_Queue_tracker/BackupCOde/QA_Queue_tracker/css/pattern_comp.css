@@ -1,0 +1,374 @@
+body
+{
+ font-family: "Verdana", Times, serif;
+ font-size:8px
+}
+
+div.header
+{
+	width:100%;
+	height:100;
+	background-color:#AEB6BF;
+	text-align:left;
+	border-radius: 25px;
+	font-size:20px;
+	color:white;
+	vertical-align: middle;
+	line-height: 90px;
+}
+
+div.leftpane
+{
+	width:150;
+	height:550;
+	background-color:#AEB6BF;
+	text-align:left;
+	border-radius: 25px;
+}
+
+div.pageheading
+{
+	position:absolute;
+	width:200;
+	height:20;
+	background-color:#A9DFBF;
+	text-align:center;
+	font-family:"Verdana";
+	color:Black;
+	border-radius: 10px;
+	color:Black;
+	left: 160;
+	top: 120;
+	font-size:14px;
+}
+
+
+
+div.usernamedisplay
+{
+	position:absolute;
+	width:200;
+	height:20;
+	background-color:#A9DFBF;
+	text-align:center;
+	font-family:"Verdana";
+	color:Black;
+	border-radius: 10px;
+	color:Black;
+	left: 500;
+	top: 120;
+	font-size:14px;
+}
+
+
+div.container
+{
+	position:absolute;
+	width:1205;
+	height:495;
+	background-color:#F8F9F9;
+	text-align:center;
+	border-radius: 10px;
+	color:Black;
+	left: 160;
+	top: 150;
+	font-size:12px;
+}
+.containerheader
+{
+	position:absolute;
+	width:500;
+	height:20;
+	background-color:#2E86C1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Verdana";
+	color:white;
+	left: 350;
+	top: 10;
+	font-size:12px;
+	
+}
+.containerbutton
+{
+	position:absolute;
+	width:200;
+	height:40;
+	background-color:#2E86C1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Verdana";
+	color:white;
+	left: 300;
+	top: 370;
+	font-size:12px;
+}
+.tablebody
+{
+	position:absolute;
+	width:1100;
+	height:450;
+	background-color:#AED6F1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Verdana";
+	color:white;
+	left: 50;
+	top: 40;
+	font-size:12px;
+	
+}
+
+table.outer
+{
+	background-color:#D3FDFD;
+}
+tr.styleheader
+{
+	 font-family: "Verdana", Times, serif;
+	 font-size:30px;
+	 border: 1px;
+}
+table.inner
+{
+	border:3px;
+	width:900;
+	height:200;
+	background-color:#D3FDFD;
+	align:center;
+	border-radius:20px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	border-radius: 10px;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+	border-radius: 10px;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.textfont
+{
+	font-family: "Verdana", Times, serif;
+    font-size:12px
+	
+}
+
+img.logo
+{
+	position:absolute;
+	top:20;
+	left:20;
+        border-radius: 10%
+}
+
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: verdana;
+  font-size:10px;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: #EBF5FB;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #EBF5FB;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* hide inpou*/
+.inputfile
+{
+	width:0.1px;
+	height:0.1px;
+	opacity:0;
+	overflow:hidden;
+	position:ablolute;
+	z-index:-1
+}
+.inputfile + label
+{
+font-size:15px;
+font-weight:50;
+color: Black;
+background-color:#EBF5FB;
+display:inline-block;
+
+}
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #0F9AED;
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+td.header
+{
+	  font-family: verdana;
+      font-size: 10px;
+	  color: #ffffff;
+	  font-weight:Bold;
+	  background-color:#2E86C1;
+	text-align:center;
+	border-radius: 5px;
+	font-family:"Verdana" ;
+
+}
+
+td.record_even
+{
+	  font-family: verdana;
+      font-size: 10px;
+	  color: Black;
+	  font-weight:Bold;
+	  background-color:#b3fff0;
+	text-align:center;
+	border-radius: 5px;
+	font-family:"Verdana" ;
+
+}
+
+td.record_Odd
+{
+	  font-family: verdana;
+      font-size: 10px;
+	  color: Black;
+	  font-weight:Bold;
+	  background-color:#66ffe0;
+	text-align:center;
+	border-radius: 5px;
+	font-family:"Verdana" ;
+}
+.tablebody_sub
+{
+	position:absolute;
+	width:400;
+	height:450;
+	background-color:#AED6F1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Verdana";
+	color:white;
+	left: 10;
+	top: 10;
+	font-size:12px;
+	
+}
+tr.headerfont
+{
+	font-family: verdana;
+      font-size: 10px;
+	  color: #ffffff;
+	  font-weight:Bold;
+	  background-color:#2E86C1;
+}
+
+.button_area
+{
+	position:absolute;
+	width:200;
+	height:30;
+	background-color:#2E86C1;
+	text-align:center;
+	border-radius: 10px;
+	font-family:"Verdana";
+	color:white;
+	left: 350;
+	top: 10;
+	font-size:12px;
+	
+}
+div.button_container
+{
+	position:absolute;
+	width:0;
+	height:20;
+	background-color:#F8F9F9;
+	text-align:center;
+	border-radius: 10px;
+	color:Black;
+	left: 160;
+	top: 400;
+	font-size:12px;
+	
+}
+
+
+div.Download
+{
+	position:relative;
+	width:200;
+	height:20;
+	background-color:#F8F9F9;
+	text-align:center;
+	border-radius: 10px;
+	color:Black;
+	left: 1000;
+	top: -100;
+	font-size:12px;
+	
+}

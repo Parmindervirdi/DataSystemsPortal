@@ -1,0 +1,72 @@
+
+a.download {
+	font-weight: bold;
+	padding-left: 12px;
+	background: url(/files/images/tpl/arrow-actions.gif) no-repeat left;
+}
+
+a.download { background: url(/files/images/buttons/download.gif) no-repeat; margin-bottom: 5px; }
+a.downloadnow { background: url(/files/images/buttons/button_new_download.gif) no-repeat; margin-bottom: 5px; }
+a.downloadbeta { background: url(/files/images/buttons/download_beta_btn.gif) no-repeat; margin-bottom: 5px; }
+
+a.evaluate { background: url(/files/images/buttons/evaluate_wide.gif) no-repeat; }
+a.evaluateit { background: url(/files/images/buttons/evaluate_it.gif) no-repeat; }
+a.evaluatenow { background: url(/files/images/buttons/evaluate_now_orn.gif) no-repeat; }
+a.evaluatevi3 { background: url(/files/images/buttons/button_eval_vi3.gif) no-repeat; }
+
+a.buy { background: url(/files/images/buttons/buynow_wide.gif) no-repeat; }
+a.buynow { background: url(/files/images/buttons/buynow_wide.gif) no-repeat; }
+a.buyvi3 { background: url(/files/images/buttons/button_buyvi3.gif) no-repeat; }
+a.buyvcms { background: url(/files/images/buttons/buy_VMCS.gif) no-repeat; }
+a.buyonline { background: url(/files/images/buttons/btn_prd-buy-online.png) no-repeat; }
+a.buyupgrade { background: url(/files/images/buttons/buyupgrade.gif) no-repeat; }
+a.buysupport { background: url(/files/images/buttons/buysupport.gif) no-repeat; }
+a.buymediakit { background: url(/files/images/buttons/buymediakit.gif) no-repeat; }
+a.buysupport1 { background: url(/files/images/buttons/btn_prd-buy-support.png) no-repeat; }
+a.buytraining { background: url(/files/images/buttons/btn_prd-buy-training.png) no-repeat; }
+a.contactsales { background: url(/files/images/buttons/btn_prd-contact-sales1.png) no-repeat; }
+
+a.trynow {background: url(/files/images/buttons/btn_trynow.gif) no-repeat;}
+a.downloadtrial {background: url(/files/images/buttons/btn_prd-download-trial.png) no-repeat;}
+a.downloadfree {background: url(/files/images/buttons/btn_prd-download.png) no-repeat;}
+a.findreseller {background: url(/files/images/buttons/btn_prd-find-reseller.png) no-repeat;}
+a.upgradenow {background: url(/files/images/buttons/btn_prd-upgrade.png) no-repeat;}
+a.getpricing {background: url(/files/images/buttons/btn_prd-get-pricing.png) no-repeat;}
+a.prdtrynow {background: url(/files/images/buttons/btn_prd-try-now.png) no-repeat;}
+a.prdviewresult {background: url(/files/images/buttons/btn_prd-view-results.png) no-repeat;}
+
+a.prebuy { background: url(/files/images/buttons/button_prebuy.gif) no-repeat; }
+a.presale { background: url(/files/images/buttons/button_presale.gif) no-repeat; }
+a.preorder { background: url(/files/images/buttons/button_preorder.gif) no-repeat; }
+a.preordernow { background: url(/files/images/buttons/button_preorder_wt.gif) no-repeat; }
+
+a.learnmore { background: url(/files/images/buttons/button_learn_more.gif) no-repeat; }
+a.upgrade { background: url(/files/images/buttons/upgrade_wide.gif) no-repeat; }
+a.register { background: url(/files/images/buttons/register.gif) no-repeat; }
+a.registernow { background: url(/files/images/buttons/register_now.gif) no-repeat; }
+a.regnow { background: url(/files/images/buttons/btn_registernow.gif) no-repeat; }
+
+a.Kaufen { background: url(/files/images/buttons/de_buy.gif) no-repeat; }
+a.Acheter { background: url(/files/images/buttons/fr_buy.gif) no-repeat; }
+a.Ð—Ð°Ð³Ñ€ÑƒÐ·ÐºÐ° { background: url(/files/images/buttons/ru_download.gif) no-repeat; }
+a.TÃ©lÃ©charger { background: url(/files/images/buttons/fr_download.gif) no-repeat; }
+
+a.downloadtrial1 {background: url(/files/images/buttons/btn_downloadtrial1.gif) no-repeat;}
+a.watchdemo {background: url(/files/images/buttons/btn_watchdemo.gif) no-repeat;}
+a.launch {background: url(/files/images/buttons/btn_prd-upgrade-advisorvi3.png) no-repeat;}
+a.cast {background: url(/files/images/buttons/button_simulcast-pm.png) no-repeat;}
+a.supportcenter {background: url(/files/images/buttons/btn_blue-supportcenter.gif) no-repeat;}
+a.getsupport {background: url(/files/images/buttons/btn_prd-get-support.png) no-repeat;}
+
+a.preregister {
+	background: url(/files/images/tpl/button-preregister.gif) no-repeat;
+	height: 21px;
+}
+
+a.participate {
+	background: url(/files/images/tpl/button-participate.gif) no-repeat;
+}
+
+a.viewdatacenter {background: url(/files/images/buttons/btn_viewdataprods.png) no-repeat; width:180px !important;}
+a.viewdesktop {background: url(/files/images/buttons/btn_viewdeskprods.png) no-repeat; width:180px !important;}
+

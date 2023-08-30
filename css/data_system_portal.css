@@ -1,0 +1,683 @@
+/*this is made by Parminder for data system Portal applocation */
+
+div.search_data_container
+{
+	width:1312px;
+	height:160px;
+	margin: 1px 1px 1px 1px;
+	background-color: black;
+	border-style:1px;
+	border-radius:5px
+	
+	
+}
+
+/* for the meeting tracker*/
+div.Stand_up_status_container
+{
+	width:1000px;
+	display: flex;
+    flex-direction: row;
+	padding: 1px 1px 1px 1px;
+	margin:20px 50px 50px 80px;
+	background-color: #E5E8E8;
+	border-style:1px;
+	border-radius:5px;
+	align:center;
+	min-height: 400px;
+	
+	
+}
+
+/* for the meeting tracker sub table*/
+div.SUP_table
+{
+	width:800px;
+	height:300px;
+	padding: 1px 1px 1px 1px;
+	background-color: #5DADE2;
+	border-style:1px;
+	border-radius:10px;
+	align:center
+	
+	
+}
+
+tr.sup_table_font
+{
+    font:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color: black;
+	font-weight:bold;
+	text-align:left;
+	text-align:center
+}
+
+div.display_summery
+{
+	width:1312px;
+	height:300px;
+	margin: 50px 1px 1px 1px;
+	background-color: #F9F8F6;
+	border-style:1px;
+	border-radius:10px;
+	
+	
+}
+table.table_style
+{
+	font-family:verdana;
+	border:1px dotted black;
+	border-radius:10px;
+	font-weight:regular_font;
+}
+
+tr.blue_font
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color: black;
+	text-align:left;
+	background-color: #97D0F9
+	
+}
+
+tr.regular_font
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color: black;
+	text-align:left;
+	
+}
+
+tr.header_style
+{
+    font:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	color: white;
+	font-weight:bold;
+	text-align:center;
+	background-color: black
+}
+
+tr.main_header
+{
+    font:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color: white;
+	font-weight:bold;
+	text-align:center;
+	background-color: black
+}
+
+tr.main_header_in_table
+{
+    font:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color: white;
+	font-weight:bold;
+	text-align:center;
+	background-color: black
+}
+
+p.searchboxmessages
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:white;
+}
+
+/*Adding a new knowledge base article*/
+
+div.kbaddcontainer
+{
+	width:1312px;
+	height:900px;
+	margin: 1px 1px 1px 1px;
+	background-color: #E8FFFF;
+	border-style:1px;
+	border-radius:10px
+}
+
+tr.odd
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	background-color: #3BB9FF;
+	color:black;
+	text-align:center;
+
+}
+
+tr.even
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	background-color: white;
+	color:Black;
+	text-align:center;
+
+}
+
+/* after save message div */
+div.savekbcontainer
+{
+	width:1500px;
+	height:400px;
+	margin: 1px 1px 1px 1px;
+	background-color: #E6CB8E;
+	border-style:1px;
+	border-radius:10px;
+	text-align:center
+}
+
+p.savemessage
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:Black;
+	font-weight:Bold;
+	text-align:center;
+    padding-top:200px
+
+}
+
+/*JIRA REPORTS*/ 
+
+div.jira_report_container
+{
+	width:1100px;
+	height:600px;
+	margin: 1px 1px 1px 1px;
+	background-color: #a4a9aa;
+	border-style:1px;
+	border-radius:10px;
+	
+	
+}
+
+
+/* Master recport Container*//
+
+div.jira_report_container_master
+{
+	width:1100px;
+	height:1000px;
+	margin: 1px 1px 1px 1px;
+	background-color: #a4a9aa;
+	border-style:1px;
+	border-radius:10px;
+	
+	
+}
+
+div.chart_container_Master
+{
+	width:500px;
+	height:1000px;
+	padding: 1px 1px 1px 65px;
+	background-color: #a4a9aa;
+	border-style:1px;
+	border-radius:10px;
+	
+}
+
+
+
+div.standup_meeting_main_container
+{
+	width:1200px;
+	display: flex;
+    flex-direction: row;
+	margin: 1px 1px 1px 1px;
+	background-color: #39B7D4;
+	border-style:1px;
+	border-radius:10px;
+	min-height: 500px;
+
+	
+	
+}
+
+div.chart_container
+{
+	width:500px;
+	height:500px;
+	padding: 100px 1px 1px 65px;
+	background-color: #a4a9aa;
+	border-style:1px;
+	border-radius:10px;
+	
+}
+
+.graph {
+	width: 80px;
+	height: 50px;
+	border: 1px solid #aeaeae;
+	background-color: #eaeaea;
+}
+
+.bar {
+	width: 3px;
+	margin: 1px;
+	display: inline-block;
+	position: relative;
+	background-color: #aeaeae;
+	vertical-align: baseline;
+}
+
+/*To track the status*/
+
+table.trackbydate
+{
+	 border: 1px dotted black;
+    border-collapse: collapse;
+	margin: 100px 1px 1px 100px;
+	border-radius:10px
+}
+
+table.trackbydatesub
+{
+	 border: 1px dotted black;
+    border-collapse: collapse;
+	border-radius:10px;
+	background-color: #3498DB;
+	font:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+}
+tr.fontheader
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color: white;
+	font-weight:bold;
+	text-align:center;
+	background-color: black
+}
+
+
+
+td.masterreportheader
+{
+	font-size:14px;
+	font-family:verdana;
+	color:white;
+	background:grey;
+	font-weight:bold;
+	text-align:center;
+	width=1020
+}
+
+td.masterreportmonth_name
+{
+	font-size:10px;
+	font-family:verdana;
+	color:white;
+	background:grey;
+	font-weight:bold;
+	text-align:center;
+}
+
+td.masterreportmonth_name_M
+{
+	font-size:10px;
+	font-family:verdana;
+	color:white;
+	background-color:#333399;
+	font-weight:bold;
+	text-align:center;
+}
+
+td.masterreportmonth_name_P
+{
+	font-size:10px;
+	font-family:verdana;
+	color:white;
+	background-color:#996699;
+	font-weight:bold;
+	text-align:center;
+}
+
+td.masterreportmonth_name_TOT
+{
+	font-size:10px;
+	font-family:verdana;
+	color:white;
+	background-color:#6A5ACD;
+	font-weight:bold;
+	text-align:center;
+	
+}
+
+td.masterreporbasefont
+{
+	font-size:10px;
+	font-family:verdana;
+	color:Black;
+	text-align:center;
+	font-weight:bold
+}
+
+td.NULLdata
+{
+	
+background:#D3D3D3;
+	
+}
+
+tr.masterjira_record_sap
+{
+	background-color:#00BFFF;
+}
+
+tr.masterjira_record_sap_TOTALS
+{
+	
+	font-size:10px;
+	font-family:verdana;
+	color:Black;
+	text-align:center;
+	font-weight:bold;
+	background-color:#00BFFF;
+	
+}
+
+tr.masterjira_record_sap_EXP
+{
+	background-color:white;
+}
+
+
+/*###################Peer review portal CSS defining the Style##################################*/
+
+
+div.container_main
+{
+	width:1100px;
+	height:1000px;
+	margin: 1px 1px 1px 1px;
+	padding-top:30px;
+	padding-left:20px;
+	background-color: #a4a9aa;
+	border-style:1px;
+	border-radius:10px;
+	overflow: auto;
+	
+	
+}
+
+div.general_container
+{
+	width:1050px;
+	height:170px;
+	padding-top:30px;
+	padding-right:10px;
+	padding-left:40px;
+	background-color: #B0C4DE;
+	border-style:1px;
+	border-radius:10px;
+	overflow: auto;
+}
+
+div.general_container_QA_queue
+{
+	width:1050px;
+	height:500px;
+	padding-top:30px;
+	padding-right:10px;
+	padding-left:40px;
+	background-color: #B0C4DE;
+	border-style:1px;
+	border-radius:10px;
+	overflow: auto;
+}
+
+
+
+div.general_container_home
+{
+	width:1050px;
+	height:400px;
+	padding-top:30px;
+	padding-right:10px;
+	padding-left:40px;
+	background-color: #B0C4DE;
+	border-style:1px;
+	border-radius:10px;
+}
+
+td.general_container_header
+{
+	font-family:verdana;
+	font-size:12px;
+	text-align:center;
+}
+
+td.width_s
+{
+	width:200;
+}
+
+
+td.font_s
+{
+	font-family:verdana;
+	font-size:10px;
+}
+td.align_s
+{
+	align:left;
+}
+
+
+
+div.property_container
+{
+	width:1050px;
+	height:300px;
+	padding-top:30px;
+	padding-right:10px;
+	padding-left:40px;
+	margin-top:20px;
+	background-color: #B0C4DE;
+	border-style:1px;
+	border-radius:10px;
+	overflow: auto;
+}
+
+div.checklist_container
+{
+	width:1050px;
+	height:200px;
+	padding-top:30px;
+	padding-right:10px;
+	padding-left:40px;
+	margin-top:20px;
+	background-color: #B0C4DE;
+	border-style:1px;
+	border-radius:10px;
+	overflow: auto;
+}
+
+
+div.checklist_container-startreview
+{
+	width:1050px;
+	height:430px;
+	padding-top:30px;
+	padding-right:10px;
+	padding-left:40px;
+	margin-top:20px;
+	background-color: #B0C4DE;
+	border-style:1px;
+	border-radius:10px;
+	overflow: auto;
+}
+
+div.checklist_container-execute
+{
+	width:1050px;
+	height:700px;
+	padding-top:30px;
+	padding-right:10px;
+	padding-left:40px;
+	margin-top:20px;
+	background-color: #B0C4DE;
+	border-style:1px;
+	border-radius:10px;
+	overflow: auto;
+}
+
+div.checklist_disp
+{
+		overflow: auto;
+		display: inline-block;
+}
+
+
+input.textlen
+{
+	width:70px;
+}
+
+input.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius:5px;
+}
+
+
+div.container_main_popup
+{
+	width:700px;
+	height:600px;
+	margin-right:100px;
+	padding-top:30px;
+	padding-left:20px;
+	background-color: #a4a9aa;
+	border-style:1px;
+	border-radius:10px;
+	overflow: auto;
+}
+
+div.year_select
+{
+	width:300px;
+	height:35px;
+	background-color: #20B2AA;
+	border-radius:10px;
+}
+td.year_sel_font
+{
+	font-family:verdana;
+	font-size:10px;
+	font-weight: bold
+}
+
+
+
+.button_sub  {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius:10px
+}
+
+.button1 {font-size: 8px;}
+
+
+div.small_container
+{
+	width:400px;
+	height:400px;
+	padding: 0px 0px,0px,0px;
+	background-color: #a4a9aa;
+	border-style:1px;
+	border-radius:10px;
+	overflow: auto;
+}
+
+
+div.small_container
+{
+	width:400px;
+	height:400px;
+	padding: 0px 0px,0px,0px;
+	background-color: #a4a9aa;
+	border-style:1px;
+	border-radius:10px;
+	overflow: auto;
+}
+
+div.small_container_PRcomments
+{
+	width:800px;
+	height:400px;
+	padding: 0px 0px,0px,0px;
+	background-color: #a4a9aa;
+	border-style:1px;
+	border-radius:10px;
+	overflow: auto;
+}
+
+
+div.checklist_container_Summary
+{
+	width:1050px;
+	height:500px;
+	padding-top:30px;
+	padding-right:10px;
+	padding-left:40px;
+	margin-top:20px;
+	background-color: #B0C4DE;
+	border-style:1px;
+	border-radius:10px;
+	overflow: auto;
+}
+
+td.QA_queue_header
+{
+	font-family:verdana;
+	font-size:10px;
+	font-weight:Bold
+	
+}
+
+td.QA_queue_dangersmark
+{
+	font-family:verdana;
+	font-size:10px;
+	background-color:#F41705  
+	
+}
+
+td.QA_queue_2weeksmark
+{
+	font-family:verdana;
+	font-size:10px;
+	background-color:#CF8C40  
+	
+}
+td.QA_queue_notclosed
+{
+	font-family:verdana;
+	font-size:10px;
+	background-color:#CDCF40  
+	
+}
